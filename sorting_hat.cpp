@@ -66,4 +66,23 @@ int main() {
     } else {
         std::cout << "Invalid input.\n";
     }
+
+    std::cout << "Q4) Which road tempts you most?\n\n";
+    std::cout << "  1) The wide, sunny grassy lane\n";
+    std::cout << "  2) The narrow, dark, lantern-lit alley\n";
+    std::cout << "  3) The twisting, leaf-strewn path through the woods\n";
+    std::cout << "  4) The cobbled street lined (ancient buildings)\n\n";
+    std::cin >> a4;
+
+    if (a4 == 1) {
+        h++;
+    } else if (a4 == 2) {
+        s++;
+    } else if (a4 == 3) {
+        g++;
+    } else if (a4 == 4) {
+        r++;
+    } else {
+        std::cout << "Invalid input.\n";
+    }
 }
