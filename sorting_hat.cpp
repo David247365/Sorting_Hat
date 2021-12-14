@@ -32,4 +32,38 @@ int main() {
     } else {
         std::cout << "Invalid input.\n";
     }
+
+    std::cout << "Q2) Dawn or Dusk?\n\n";
+    std::cout << "  1) Dawn\n";
+    std::cout << "  2) Dusk\n\n";
+    std::cin >> a2;
+
+    if(a2 == 1) {
+        g++;
+        r++;
+    } else if (a2 == 2) {
+        h++;
+        s++;
+    } else {
+        std::cout << "Invalid input\n";
+    }
+
+    std::cout << "Q3) Which kind of instrument most pleases your ear?\n\n";
+    std::cout << "  1) The violin\n";
+    std::cout << "  2) The trumpet\n";
+    std::cout << "  3) The piano\n";
+    std::cout << "  4) The drum\n\n";
+    std::cin >> a3;
+
+    if (a3 == 1) {
+        s++;
+    } else if (a3 == 2) {
+        h++;
+    } else if (a3 == 3) {
+        r++;
+    } else if (a3 == 4) {
+        g++;
+    } else {
+        std::cout << "Invalid input.\n";
+    }
 }
