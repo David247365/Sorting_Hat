@@ -85,4 +85,28 @@ int main() {
     } else {
         std::cout << "Invalid input.\n";
     }
+
+    int max = 0;
+
+    std::string house;
+
+    if (g > max) {
+        max = g;
+        house = "Gryffindor";
+    } 
+    if (h > max) {
+        max = h;
+        house = "Hufflepuff";
+    }
+    if (r > max) { 
+        max = r;
+        house = "Ravenclaw";
+    }
+    
+    if (s > max) {
+        max = s;
+        house = "Slytherin";
+    }
+ 
+    std::cout << house << "!\n";
 }
